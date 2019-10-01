@@ -51,10 +51,8 @@
                     <textarea class="form-control" id="comments" rows="5" placeholder="Additional comments" name="comments"></textarea>
                 </div>
                 <div class="form-group">
-                    <label class="checkbox-inline" for="check1">
-                    <input type="checkbox" id="check1" name="northAmerica" value="North America">North America</label>
-                    <label class="checkbox-inline" for "check2">
-                    <input type="checkbox" id="check2" name="southAmerica" value="South America">South America</label>
+                    <label class="checkbox-inline" for="check1"><input type="checkbox" id="check1" name="northAmerica" value="North America">North America</label>
+                    <label class="checkbox-inline" for "check2"><input type="checkbox" id="check2" name="southAmerica" value="South America">South America</label>
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
