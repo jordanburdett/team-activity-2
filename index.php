@@ -45,6 +45,10 @@
                 
                 ?>
                 </div>
+                <div class="form-group">
+                    <label for="comments">Comments:</label>
+                    <input type="text" class="form-control" id="comments" id="comments" placeholder="Additional comments" name="comments";>
+                </div>
             </form>
         
 
