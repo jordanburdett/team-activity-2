@@ -48,7 +48,7 @@
                 </div>
                 <div class="form-group">
                     <label for="comments">Comments:</label>
-                    <input type="text" class="form-control" id="comments" id="comments" placeholder="Additional comments" name="comments";>
+                    <textarea class="form-control" id="comments" rows="5" placeholder="Additional comments" name="comments"></textarea>
                 </div>
             </form>
         
