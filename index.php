@@ -20,6 +20,10 @@
             <div class="col">
                 <h3 class="display-4">Form!
                 </h3>
+
+                <div class="radio">
+                    <label><input type="radio" name="optradio" checked>Option 1</label>
+                </div>
                
                 <?php
                 /**********************************************************
