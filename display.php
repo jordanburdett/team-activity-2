@@ -1,8 +1,8 @@
 <?php
-  $name = POST["name"];
-  $email = POST["email"];
-  $major = POST["major"];
-  $comments = POST["comments"];
+  $name = $_POST["name"];
+  $email = $_POST["email"];
+  $major = $_POST["major"];
+  $comments = $_POST["comments"];
 
   echo($name);
 ?>
