@@ -31,7 +31,7 @@
 
     echo("Name: " . $name . "<br>Email: " . $email . "<br>Major: "
      . $major . "<br>Comments: " . $comments . "<br>Continents visited:<br>");
-    echo("<ul>")
+    echo("<ul>");
      if($northAmerica) {
         echo(<li>North America</li>);
     }
@@ -53,7 +53,7 @@
     if($antarctica) {
         echo(<li>Antarctica</li>);
     }
-    echo("</ul>")
+    echo("</ul>");
   ?>
 </div>
 
