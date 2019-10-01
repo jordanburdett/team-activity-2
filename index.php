@@ -12,7 +12,7 @@
 <body>
 
 <div class="container-fluid">
-        <h1 class="display-1">Team Activity #2</h1>
+        <h1 class="display-4">Team Activity #2</h1>
     </div>
 
     <div class="row">
