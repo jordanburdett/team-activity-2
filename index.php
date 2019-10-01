@@ -20,7 +20,7 @@
         <div class="col">
             <h3 class="display-4">Form!</h3>
 
-            <form method="post" action="">
+            <form method="post" action="display.php">
                 <div class="form-group">
                     <label for="name">Name:</label>
                     <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
