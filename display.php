@@ -33,25 +33,25 @@
      . $major . "<br>Comments: " . $comments . "<br>Continents visited:<br>");
     echo("<ul>");
      if($northAmerica) {
-        echo(<li>North America</li>);
+        echo("<li>North America</li>");
     }
     if($southAmerica) {
-        echo(<li>South America</li>);
+        echo("<li>South America</li>");
     }
     if($europe) {
-        echo(<li>Europe</li>);
+        echo("<li>Europe</li>");
     }
     if($asia) {
-        echo(<li>Asia</li>);
+        echo("<li>Asia</li>");
     }
     if($australia) {
-        echo(<li>Australia</li>);
+        echo("<li>Australia</li>");
     }
     if($africa) {
-        echo(<li>Africa</li>);
+        echo("<li>Africa</li>");
     }
     if($antarctica) {
-        echo(<li>Antarctica</li>);
+        echo("<li>Antarctica</li>");
     }
     echo("</ul>");
   ?>
