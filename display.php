@@ -26,10 +26,10 @@
 
     echo("Name: " . $name . "<br>Email: " . $email . "<br>Major: " . $major . "<br>Comments: " . $comments . "<br>North: " . $northAmerica . "<br>South: " . $southAmerica);
     if($southAmerica) {
-        echo("YES!")
+        echo("YES!");
     }
     else {
-        echo("NO!")
+        echo("NO!");
     }
   ?>
 </div>
