@@ -21,10 +21,6 @@
                 <h3 class="display-4">Form!
                 </h3>
 
-                <div class="radio">
-                    <label><input type="radio" name="optradio" checked>Option 1</label>
-                </div>
-               
                 <?php
                 /**********************************************************
                 * Create the form using php for stretch
@@ -35,7 +31,7 @@
                     "Computer Information Technology", "Computer Engineering");
                 
                 foreach($majors as $major) {
-                    echo "<div class='radio'><label><input type='radio' name='majorRadio'>" . $major . "</label></div>";
+                    echo "<div class='radio' id='majorRadios'><label><input type='radio' name='majorRadio'>" . $major . "</label></div>";
                 }
                 
                 ?>
