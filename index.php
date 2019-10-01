@@ -17,30 +17,41 @@
 
     <div class="row">
     
-            <div class="col">
-                <h3 class="display-4">Form!
-                </h3>
+        <div class="col">
+            <h3 class="display-4">Form!</h3>
 
-
-        
+            <form method="post" action="">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                </div>
+                <div class="form-group">
                 <?php
-                /**********************************************************
-                * Create the form using php for stretch
-                */
+                    /**********************************************************
+                    * Create the form using php for stretch
+                    */
 
-                // Loop through these to create the radio buttons
-                $majors = array("Computer Science", "Web Design and Development",
-                    "Computer Information Technology", "Computer Engineering");
-                
-                foreach($majors as $major) {
-                    echo "<div class='radio' id='majorRadios'><input type='radio' name='majorRadio'>" . $major . "</div>";
-                }
+                    // Loop through these to create the radio buttons
+                    $majors = array("Computer Science", "Web Design and Development",
+                        "Computer Information Technology", "Computer Engineering");
+            
+                    foreach($majors as $major) {
+                        echo "<div class='radio' id='majorRadios'><label for='" . $major . "'> " . $major . "</label><input type='radio' name='majorRadio'></div>";
+                    }
                 
                 ?>
+                </div>
+            </form>
+        
+
 
                 
-            </div>
         </div>
+    </div>
 
 
 
