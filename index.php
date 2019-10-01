@@ -33,7 +33,7 @@
                     "Computer Information Technology", "Computer Engineering");
                 
                 foreach($majors as $major) {
-                    echo "<div class='radio' id='majorRadios'><label><input type='radio' name='majorRadio'>" . $major . "</label></div>";
+                    echo "<div class='radio' id='majorRadios'><input type='radio' name='majorRadio'>" . $major . "</div>";
                 }
                 
                 ?>
