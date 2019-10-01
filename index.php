@@ -51,8 +51,34 @@
                     <textarea class="form-control" id="comments" rows="5" placeholder="Additional comments" name="comments"></textarea>
                 </div>
                 <div class="form-group">
-                    <label class="checkbox-inline" for="check1"><input type="checkbox" id="check1" name="northAmerica" value="North America">North America</label>
-                    <label class="checkbox-inline" for "check2"><input type="checkbox" id="check2" name="southAmerica" value="South America">South America</label>
+                    <div class="form-check">
+                        <label class="form-check-label" for="check1">
+                        <input type="checkbox" class="form-check-input" id="check1" name="northAmerica" value="North America">North America</label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label" for="check2">
+                        <input type="checkbox" class="form-check-input" id="check2" name="southAmerica" value="South America">South America</label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label" for="check3">
+                        <input type="checkbox" class="form-check-input" id="check3" name="europe" value="Europe">Europe</label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label" for="check4">
+                        <input type="checkbox" class="form-check-input" id="check4" name="asia" value="Asia">Asia</label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label" for="check5">
+                        <input type="checkbox" class="form-check-input" id="check5" name="australia" value="Australia">Australia</label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label" for="check6">
+                        <input type="checkbox" class="form-check-input" id="check6" name="Africa" value="Africa">Africa</label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label" for="check7">
+                        <input type="checkbox" class="form-check-input" id="check7" name="antarctica" value="Antarctica">Antarctica</label>
+                    </div>
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>

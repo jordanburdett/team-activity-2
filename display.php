@@ -23,14 +23,37 @@
     $comments = $_POST["comments"];
     $northAmerica = $_POST["northAmerica"];
     $southAmerica = $_POST["southAmerica"];
+    $europe = $_POST["europe"];
+    $asia = $_POST["asia"];
+    $australia = $_POST["australia"];
+    $africa = $_POST["africa"];
+    $antarctica = $_POST["antarctica"];
 
-    echo("Name: " . $name . "<br>Email: " . $email . "<br>Major: " . $major . "<br>Comments: " . $comments . "<br>North: " . $northAmerica . "<br>South: " . $southAmerica);
+    echo("Name: " . $name . "<br>Email: " . $email . "<br>Major: "
+     . $major . "<br>Comments: " . $comments . "<br>Continents visited:<br>");
+    echo("<ul>");
+     if($northAmerica) {
+        echo(<li>North America</li>);
+    }
     if($southAmerica) {
-        echo("YES!");
+        echo(<li>South America</li>);
     }
-    else {
-        echo("NO!");
+    if($europe) {
+        echo(<li>Europe</li>);
     }
+    if($asia) {
+        echo(<li>Asia</li>);
+    }
+    if($australia) {
+        echo(<li>Australia</li>);
+    }
+    if($africa) {
+        echo(<li>Africa</li>);
+    }
+    if($antarctica) {
+        echo(<li>Antarctica</li>);
+    }
+    echo("</ul>");
   ?>
 </div>
 
