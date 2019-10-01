@@ -50,6 +50,7 @@
                     <label for="comments">Comments:</label>
                     <input type="text" class="form-control" id="comments" id="comments" placeholder="Additional comments" name="comments";>
                 </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
             </form>
         
 
