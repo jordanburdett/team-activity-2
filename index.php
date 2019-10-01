@@ -18,7 +18,8 @@
     <div class="row">
     
         <div class="col">
-            <h3 class="display-4">Form!</h3>
+        <div class="container">
+            <h2>Form</h3>
 
             <form method="post" action="">
                 <div class="form-group">
@@ -49,7 +50,7 @@
         
 
 
-                
+        </div>
         </div>
     </div>
 
