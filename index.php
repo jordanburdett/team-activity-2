@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <title>PHP playground</title>
+    <title>PHP forms</title>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -23,10 +23,17 @@
                
                 <?php
                 /**********************************************************
-                 * Create the form using php for stretch
-                 */
-               
+                * Create the form using php for stretch
+                */
 
+                // Loop through these to create the radio buttons
+                $majors = array("Computer Science", "Web Design and Development",
+                    "Computer Information Technology", "Computer Engineering");
+                
+                foreach($majors as $major) {
+                    echo "<div class='radio'><label><input type='radio' name='majorRadio'>" . $major . "</label></div>";
+                }
+                
                 ?>
 
                 
