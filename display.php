@@ -21,8 +21,10 @@
     $email = $_POST["email"];
     $major = $_POST["major"];
     $comments = $_POST["comments"];
+    $northAmerica = $_POST["northAmerica"];
+    $southAmerica = $_POST["southAmerica"];
 
-    echo("Name: " . $name . "<br>Email: " . $email . "<br>Major: " . $major . "Comments: " . $comments);
+    echo("Name: " . $name . "<br>Email: " . $email . "<br>Major: " . $major . "<br>Comments: " . $comments . "<br>North: " . $northAmerica . "<br>South: " . $southAmerica);
   ?>
 </div>
 

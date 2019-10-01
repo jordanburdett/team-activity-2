@@ -53,8 +53,11 @@
                 <div class="form-group">
                     <div class="form-check">
                         <label class="form-check-label" for="check1">
-                        <input type="checkbox" class="form-check-input" id="check1" name="northAmerica" value="North America" checked>North America</label>
-                        <input type="checkbox" class="form-check-input" id="check2" name="southAmerica" value="South America" checked>South America</label>
+                        <input type="checkbox" class="form-check-input" id="check1" name="northAmerica" value="North America">North America</label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label" for "check2">
+                        <input type="checkbox" class="form-check-input" id="check2" name="southAmerica" value="South America">South America</label>
                     </div>
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
