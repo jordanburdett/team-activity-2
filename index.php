@@ -52,9 +52,9 @@
                 </div>
                 <div class="form-group">
                     <label class="checkbox-inline" for="check1">
-                    <input type="checkbox" class="form-check-input" id="check1" name="northAmerica" value="North America">North America</label>
+                    <input type="checkbox" id="check1" name="northAmerica" value="North America">North America</label>
                     <label class="checkbox-inline" for "check2">
-                    <input type="checkbox" class="form-check-input" id="check2" name="southAmerica" value="South America">South America</label>
+                    <input type="checkbox" id="check2" name="southAmerica" value="South America">South America</label>
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
