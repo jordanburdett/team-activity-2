@@ -50,6 +50,13 @@
                     <label for="comments">Comments:</label>
                     <textarea class="form-control" id="comments" rows="5" placeholder="Additional comments" name="comments"></textarea>
                 </div>
+                <div class="form-group">
+                    <div class="form-check">
+                        <label class="form-check-label" for="check1">
+                        <input type="checkbox" class="form-check-input" id="check1" name="northAmerica" value="North America" checked>North America</label>
+                        <input type="checkbox" class="form-check-input" id="check2" name="southAmerica" value="South America" checked>South America</label>
+                    </div>
+                </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
         
