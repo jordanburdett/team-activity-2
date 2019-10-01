@@ -21,7 +21,7 @@
         <div class="container">
             <h2>Form</h3>
 
-            <form method="post" action="">
+            <form method="post" action="display.php">
                 <div class="form-group">
                     <label for="name">Name:</label>
                     <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
@@ -50,6 +50,7 @@
                     <label for="comments">Comments:</label>
                     <textarea class="form-control" id="comments" rows="5" placeholder="Additional comments" name="comments"></textarea>
                 </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
             </form>
         
 
